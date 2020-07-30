@@ -2,7 +2,9 @@ target/*
 *.idea
 *.class
 *.iml
+*.out
 db/
 *.project
 /target/
 .settings/
+/out/production/learningJava/META-INF/learningJava.kotlin_module
