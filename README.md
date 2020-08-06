@@ -1,5 +1,17 @@
 # learningJava
 
+##listOfContacts
+* Value: create an Contact List application which can add, remove, update and find contacts. Train ArrayList<>() class usage. Train Composition principle
+* Classes: Contact, MobilePhone
+
+##minEllementChallenge
+* Value: create an array from the entered numbers and find the smallest one
+* Classes: MinimumElement
+
+##reverseArrayChallenge
+* Value: Reverse Array algorithm
+* Classes: ReverseArray
+
 ##bank
 * Value: Create instance, constructors, constructors with default values, getters, setters, calculation methods
 * Classes: BankAccount, VipCustomer
