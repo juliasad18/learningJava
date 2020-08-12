@@ -1,7 +1,11 @@
 # learningJava
 
+##bankApplication
+* Value: create system for Bank, where in console new customers and new branches could be added to the Bank. Train Composition principle, ArrayList usecases, Autoboxing and Unboxing, Scanner class
+* Classes: Customer, Branch, Bank
+
 ##listOfContacts
-* Value: create an Contact List application which can add, remove, update and find contacts. Train ArrayList<>() class usage. Train Composition principle
+* Value: create an Contact List application which can add, remove, update and find contacts. Train ArrayList<>() class usecase. Train Composition principle
 * Classes: Contact, MobilePhone
 
 ##minEllementChallenge
