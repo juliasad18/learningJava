@@ -1,5 +1,9 @@
 # learningJava
 
+##songPlaylist (not fully completed yet)
+* Value: create an application which stores the songs, album of the songs and currently playing playList; Train LinkedList usecase, Inheritance and Composition principles; train Scanner
+* Classes: Song, Album, AvailablePlayList, PlayList (extends AvailablePlayList)
+
 ##bankApplication
 * Value: create system for Bank, where in console new customers and new branches could be added to the Bank. Train Composition principle, ArrayList usecases, Autoboxing and Unboxing, Scanner class
 * Classes: Customer, Branch, Bank
