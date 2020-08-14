@@ -13,8 +13,15 @@ public class Main {
         listOfAlbums.add(stromaeAlbum);
         listOfAlbums.add(mexAlbum);
 
-        //AvailablePlaylist availablePlaylists = new AvailablePlaylist(listOfAlbums);
         PlayList currentPlaylist = new PlayList(listOfAlbums);
+
+        currentPlaylist.addTheSong("Stromae - Formidable");
+        currentPlaylist.addTheSong("Stromae - carmen");
+        currentPlaylist.addTheSong("Stromae - Papautai");
+        currentPlaylist.addTheSong("Indila - Tourner Dans Le Vide");
+        currentPlaylist.addTheSong("L.E.J - Acrobates");
+
+
 
         boolean condition = true;
         while(condition) {
@@ -23,8 +30,7 @@ public class Main {
             System.out.println("1 - show available songs;");
             System.out.println("2 - add a song to the PlayList;");
             System.out.println("3 - show the queue of the PlayList;");
-            System.out.println("4 - go to the next song;");
-            System.out.println("5 - go to the previous song;");
+            System.out.println("4 - start playing;");
             System.out.println("====================================");
 
            int option = Integer.parseInt(scanner.nextLine());
@@ -43,6 +49,10 @@ public class Main {
                    System.out.println("Showing current queue...");
                    currentPlaylist.showTheQueue();
                    break;
+               case 4:
+                   currentPlaylist.playSongs();
+                   break;
+
            }
         }
 

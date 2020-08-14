@@ -1,6 +1,6 @@
 # learningJava
 
-##songPlaylist (not fully completed yet)
+##songPlaylist
 * Value: create an application which stores the songs, album of the songs and currently playing playList; Train LinkedList usecase, Inheritance and Composition principles; train Scanner
 * Classes: Song, Album, AvailablePlayList, PlayList (extends AvailablePlayList)
 
