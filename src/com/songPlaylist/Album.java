@@ -19,10 +19,6 @@ public class Album {
         return name;
     }
 
-    public void setSongsList(ArrayList<Song> songsList) {
-        this.songsList = songsList;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
