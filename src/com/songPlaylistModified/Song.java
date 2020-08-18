@@ -1,4 +1,4 @@
-package com.songPlaylist;
+package com.songPlaylistModified;
 
 public class Song {
     private String title;

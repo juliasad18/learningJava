@@ -1,4 +1,4 @@
-package com.songPlaylist;
+package com.songPlaylistModified;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,10 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         Album stromaeAlbum = createStromaeAlbumManually();
-        Album mexAlbum = createMixAlbumManually();
+        Album mixAlbum = createMixAlbumManually();
         ArrayList<Album> listOfAlbums = new ArrayList<>();
         listOfAlbums.add(stromaeAlbum);
-        listOfAlbums.add(mexAlbum);
+        listOfAlbums.add(mixAlbum);
 
         PlayList currentPlaylist = new PlayList(listOfAlbums);
 

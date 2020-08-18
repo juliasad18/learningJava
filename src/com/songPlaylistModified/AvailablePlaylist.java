@@ -1,4 +1,4 @@
-package com.songPlaylist;
+package com.songPlaylistModified;
 
 import java.util.ArrayList;
 
@@ -36,7 +36,7 @@ public class AvailablePlaylist {
     public boolean isSongAvailable(String songName, ArrayList<Album> albumList) {
         boolean flag = false;
         for (Album album : albumList) {
-            ArrayList<Song> songArrayList = album.getSongsList(); //list with songs
+            ArrayList<Song> songArrayList = album.showTheSongs(); //list with songs
             for (Song song : songArrayList) {
                 String availableSongTitle = song.getTitle();
                 if (songName.equals(availableSongTitle)) {

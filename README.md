@@ -1,5 +1,13 @@
 # learningJava
 
+##interfaceTest
+* Value: Interface
+* Classes: ISavable (interface), Monster, Player
+
+##songPlaylistModified
+* Value: Inner classes
+* Classes: Song, Album (Inner class - SongList), AvailablePlayList, PlayList (extends AvailablePlayList)
+
 ##songPlaylist
 * Value: create an application which stores the songs, album of the songs and currently playing playList; Train LinkedList usecase, Inheritance and Composition principles; train Scanner
 * Classes: Song, Album, AvailablePlayList, PlayList (extends AvailablePlayList)
