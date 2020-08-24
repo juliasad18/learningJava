@@ -1,5 +1,17 @@
 # learningJava
 
+##sportLeague
+* Value: Generics
+* Classes: Player (abstract), FootballPlayer, Team<T extends Player>, LeagueTable<T extends FootballPlayer>
+
+##linkedListAlgoritm (not completed yet)
+* Value: LinkedList algorithm
+* Classes: ListItem, Node, LinkList
+
+##abstractionTest
+* Value: Abstraction, Interface, LinkedList algorithm
+* Classes: NodeList (interface), Node, ListItem, MyLinkedList
+
 ##interfaceTest
 * Value: Interface
 * Classes: ISavable (interface), Monster, Player
