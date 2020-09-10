@@ -1,5 +1,20 @@
 # learningJava
 
+##itemsbasket
+* Value: Collections; Create a stock you can reserve/unreserve/buy items from where;
+* Classes: StockItem, StockList, Basket
+
+##adventuregame
+* Value: HashMap, Immutable objects. Small game where player is located somewhere on the map and can change the location choosing the direction to go - North, South, West or East.
+* Classes: AdventureMap
+
+##scopeAndVisibility
+* Value: Scope; Scanner
+* Classes: TimesTable
+
+##packageChallenge
+* Value: Create JAR file and access it's classes from another project
+
 ##sportLeague
 * Value: Generics
 * Classes: Player (abstract), FootballPlayer, Team<T extends Player>, LeagueTable<T extends FootballPlayer>
