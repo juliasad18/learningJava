@@ -9,7 +9,7 @@ public class Locations {
 
     //open question - why BufferedWriter is more effective than write directly into FileWriter?
     public static void main(String[] args) {
-        try(BufferedWriter bufferedWriter1 = new BufferedWriter(new FileWriter("locations.txt")); BufferedWriter bufferedWriter2 = new BufferedWriter(new FileWriter("directions.txt"))) { //tre-with-resources : means that try bloc will automatically close the process; //to add more than one FileWriter object, need to separate them with ; --> (FileWriter fileWriter1 = new FileWriter("locations.txt"); FileWriter fileWriter2 = new FileWriter("description.txt"))
+        try(BufferedWriter bufferedWriter1 = new BufferedWriter(new FileWriter("src/com/adventuregameio/locations.txt")); BufferedWriter bufferedWriter2 = new BufferedWriter(new FileWriter("src/com/adventuregameio/directions.txt"))) { //tre-with-resources : means that try bloc will automatically close the process; //to add more than one FileWriter object, need to separate them with ; --> (FileWriter fileWriter1 = new FileWriter("locations.txt"); FileWriter fileWriter2 = new FileWriter("description.txt"))
             for(Map.Entry<Integer, AdventureMap> entry : locations.entrySet()) {
                 bufferedWriter1.write(entry.getValue().getLocationId() + "," + entry.getValue().getDescription() + "\n");
                 for(Map.Entry<String, Integer> entry2 : entry.getValue().getExits().entrySet()) {
