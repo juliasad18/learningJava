@@ -4,9 +4,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * Created by dev on 17/02/2016.
- */
+
 public class Basket {
     private final String name;
     private Map<StockItem, Integer> list;

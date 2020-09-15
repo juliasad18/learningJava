@@ -1,8 +1,6 @@
 package com.itemsbasket;
 
-/**
- * Created by dev on 16/02/2016.
- */
+
 public class StockItem implements Comparable<StockItem> {
     private final String name;
     private double price;

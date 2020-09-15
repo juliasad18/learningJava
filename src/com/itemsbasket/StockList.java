@@ -4,9 +4,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by dev on 16/02/2016.
- */
+
 public class StockList {
     private final Map<String, StockItem> list;
 
