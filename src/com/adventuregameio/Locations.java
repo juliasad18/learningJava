@@ -22,7 +22,7 @@ public class Locations {
     }
 
     static {
-        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("locations.txt"))) {
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("src/com/adventuregameio/locations.txt"))) {
             String newLine;
             while((newLine = bufferedReader.readLine()) != null) {
                 String[] stringArray = newLine.split(",");
@@ -35,7 +35,7 @@ public class Locations {
         }
 
         //BufferedReader - one way how to read lines from a file; Another way - use Scanner to scan nextLine from the FileReader
-        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("directions.txt"))) {
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("src/com/adventuregameio/directions.txt"))) {
             String newLine;
             while((newLine = bufferedReader.readLine()) != null) {
                 String[] stringArray = newLine.split(",");

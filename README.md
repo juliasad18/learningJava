@@ -1,5 +1,9 @@
 # learningJava
 
+##adventuregameserializible
+* Value: I/O, Serializable, ObjectOutputStream/ObjectInputStream
+* Classes: AdventureMap implements Serializable, Locations
+
 ##adventuregameio
 * Value: I/O, FileReader/FileWriter, BufferedReader/BufferedWriter
 * Classes: AdventureMap, Locations
